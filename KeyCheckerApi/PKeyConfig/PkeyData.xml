@@ -1,0 +1,59 @@
+<xmldoc>
+  <!-- Office 2010 -->
+  <configType configPath="office2010/pkconfig_office14.xrm-ms" configName="Office 2010" />
+  <configType configPath="office2010/pkeyconfig-office-kmshost.xrm-ms" configName="Office 2010 KMS Host" />
+
+  <!-- Office 2013 -->
+  <configType configPath="office2013/pkconfig_Office15Client.xrm-ms" configName="Office 2013 Client" />
+  <configType configPath="office2013/pkconfig_Office15KMSHost.xrm-ms" configName="Office 2013 KMS Host" />
+  <configType configPath="office2013/pkconfig_office15.xrm-ms" configName="Office 2013" />
+  <configType configPath="office2013/pkeyconfig-office-kmshost.xrm-ms" configName="Office 2013 KMS Host" />
+
+  <!-- Office 2016 -->
+  <configType configPath="office2016/officeonline2016.xrm-ms" configName="Office Online 2016" />
+  <configType configPath="office2016/pkeyconfig-Office16KMSHost.xrm-ms" configName="Office 2016 KMS Host" />
+  <configType configPath="office2016/pkeyconfig-office-kmshost.xrm-ms" configName="Office 2016 KMS Host" />
+  <configType configPath="office2016/pkeyconfig-office16Client.xrm-ms" configName="Office 2016 Client" />
+
+  <!-- Office 2019 -->
+  <configType configPath="office2019/3_pkeyconfig_office16_Client.xrm-ms" configName="Office 2019 Client" />
+  <configType configPath="office2019/pkeyconfig-office19.xrm-ms" configName="Office 2019" />
+  <configType configPath="office2019/pkeyconfig_office16_Server.xrm-ms" configName="Office 2019 Server" />
+  <configType configPath="office2019/pkeyconfig_office16_kmshost.xrm-ms" configName="Office 2019 KMS Host" />
+  <configType configPath="office2019/z_pkeyconfig-office16_KMSHost.xrm-ms" configName="Office 2019 KMS Host" />
+
+  <!-- Office 2021 -->
+  <configType configPath="office2021/pkeyconfig-office-2021.xrm-ms" configName="Office 2021" />
+
+  <!-- SQL Server -->
+  <configType configPath="sql/pkconfig_sql2012.xrm-ms" configName="SQL Server 2012" />
+  <configType configPath="sql/pkconfig_sql2014.xrm-ms" configName="SQL Server 2014" />
+  <configType configPath="sql/pkconfig_sql2016.xrm-ms" configName="SQL Server 2016" />
+  <configType configPath="sql/pkconfig_sql2017.xrm-ms" configName="SQL Server 2017" />
+  <configType configPath="sql/pkconfig_sql2019.xrm-ms" configName="SQL Server 2019" />
+  <configType configPath="sql/pkeyconfig-sql2012.xrm-ms" configName="SQL Server 2012" />
+  <configType configPath="sql/pkeyconfig-sql2014.xrm-ms" configName="SQL Server 2014" />
+
+  <!-- Visual Studio -->
+  <configType configPath="vs/pkconfig_vs2010.xrm-ms" configName="Visual Studio 2010" />
+  <configType configPath="vs/pkconfig_vs2012.xrm-ms" configName="Visual Studio 2012" />
+  <configType configPath="vs/pkconfig_vs2013.xrm-ms" configName="Visual Studio 2013" />
+  <configType configPath="vs/pkconfig_vs2015.xrm-ms" configName="Visual Studio 2015" />
+  <configType configPath="vs/pkconfig_vs2015rc.xrm-ms" configName="Visual Studio 2015 RC" />
+  <configType configPath="vs/pkconfig_vs2017.xrm-ms" configName="Visual Studio 2017" />
+  <configType configPath="vs/pkconfig_vs2019.xrm-ms" configName="Visual Studio 2019" />
+  <configType configPath="vs/pkconfig_vs2022.xrm-ms" configName="Visual Studio 2022" />
+
+  <!-- Windows -->
+  <configType configPath="windows/pkeyconfig.xrm-ms" configName="Windows" />
+  <configType configPath="windows/pkeyconfig10.xrm-ms" configName="Windows 10" />
+  <configType configPath="windows/pkeyconfig11.xrm-ms" configName="Windows 11" />
+  <configType configPath="windows/pkeyconfig7.xrm-ms" configName="Windows 7" />
+  <configType configPath="windows/pkeyconfig8.xrm-ms" configName="Windows 8" />
+  <configType configPath="windows/pkeyconfig81.xrm-ms" configName="Windows 8.1" />
+  <configType configPath="windows/pkeyconfigServer.xrm-ms" configName="Windows Server" />
+  <configType configPath="windows/pkeyconfigServer2012.xrm-ms" configName="Windows Server 2012" />
+  <configType configPath="windows/pkeyconfigServer2016.xrm-ms" configName="Windows Server 2016" />
+  <configType configPath="windows/pkeyconfigServer2019.xrm-ms" configName="Windows Server 2019" />
+  <configType configPath="windows/pkeyconfigServer2022.xrm-ms" configName="Windows Server 2022" />
+</xmldoc>
