@@ -96,8 +96,8 @@ namespace KeyCheckerApi.Services
                 Console.WriteLine($"pkeyConfigList: {pkeyConfigList}");
 
                 foreach (var config in pkeyConfigList)
-                Console.WriteLine($"config: {config}");
                 {
+                    Console.WriteLine($"config: {config}");
                     pKeyConfig = config;
                     RetID = PidGenX(productKey, pKeyConfig, MSPID, 0, PID, DPID, DPID4);
                     if (RetID == 0)
