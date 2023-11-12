@@ -17,7 +17,6 @@ namespace KeyCheckerApi.Models
         public string? Lic { get; set; } // Допускается null
         public string? Cid { get; set; } // Допускается null
         public string? Prd { get; set; } // Допускается null
-        public string? RemainingActivations { get; set; }
 
         public KeyDetail(string productKey)
         {

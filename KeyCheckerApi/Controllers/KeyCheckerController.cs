@@ -25,7 +25,6 @@ namespace KeyCheckerApi.Controllers
                 if (result != null)
                 {
                     // Теперь получаем оставшиеся активации для данного продукта
-                    result.RemainingActivations = await PIDChecker.GetRemainingActivationsAsync(result.KeyPid);
                     return Ok(result);
                 }
                 else
