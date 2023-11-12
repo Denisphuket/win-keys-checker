@@ -1,4 +1,3 @@
-// PIDChecker.cs
 using System;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -9,6 +8,7 @@ using System.Globalization;
 using KeyCheckerApi.Models;
 using System.Security.Cryptography;
 using System.Net;
+using System.Threading.Tasks;
 
 namespace KeyCheckerApi.Services
 {
@@ -55,7 +55,7 @@ namespace KeyCheckerApi.Services
             catch (Exception ex)
             {
                 Console.WriteLine($"Error loading PKeyConfig list: {ex.Message}");
-                throw; // Re-throw the exception to be handled by the caller
+                throw;
             }
 
             return pkeyConfigList;
@@ -172,178 +172,65 @@ namespace KeyCheckerApi.Services
         }
 
         public static async Task<string> GetRemainingActivationsAsync(string pid)
-    {
-        // URL веб-сервиса активации
-        const string url = "https://activation.sls.microsoft.com/BatchActivation/BatchActivation.asmx";
-
-        try
         {
-            // Создание клиента HTTP
-            using (HttpClient httpClient = new HttpClient())
+            const string url = "https://activation.sls.microsoft.com/BatchActivation/BatchActivation.asmx";
+
+            try
             {
-                // Установка таймаута для HttpClient
-                httpClient.Timeout = TimeSpan.FromMinutes(1);
-
-                // Подготовка SOAP запроса
-                var soapRequest = PrepareSoapRequest(pid);
-
-                // Создание HttpRequestMessage
-                using (var httpRequest = new HttpRequestMessage(HttpMethod.Post, url))
+                using (HttpClient httpClient = new HttpClient())
                 {
-                    httpRequest.Content = new StringContent(soapRequest, Encoding.UTF8, "text/xml");
-                    httpRequest.Headers.Add("SOAPAction", "http://www.microsoft.com/BatchActivationService/BatchActivate");
+                    httpClient.Timeout = TimeSpan.FromMinutes(1);
 
-                    // Отправка запроса и получение ответа
-                    var response = await httpClient.SendAsync(httpRequest);
+                    var soapRequest = PrepareSoapRequest(pid);
 
-                    // Проверка статуса HTTP ответа
-                    if (!response.IsSuccessStatusCode)
+                    using (var httpRequest = new HttpRequestMessage(HttpMethod.Post, url))
                     {
-                        return $"Error: {response.StatusCode}";
-                    }
+                        httpRequest.Content = new StringContent(soapRequest, Encoding.UTF8, "text/xml");
+                        httpRequest.Headers.Add("SOAPAction", "http://www.microsoft.com/BatchActivationService/BatchActivate");
 
-                    // Чтение ответа
-                    var soapResponse = await response.Content.ReadAsStringAsync();
+                        var response = await httpClient.SendAsync(httpRequest);
 
-                    // Обработка SOAP ответа
-                    // var activationsRemaining = ParseSoapResponse(soapResponse);
-                    // return activationsRemaining;
-                    return soapResponse;
-                }
-            }
-        }
-        catch (WebException webEx)
-        {
-            // Обработка исключений сетевых ошибок
-            return $"WebException: {webEx.Message}";
-        }
-        catch (Exception ex)
-        {
-            // Обработка других видов исключений
-            return $"Exception: {ex.Message}";
-        }
-    }
+                        if (!response.IsSuccessStatusCode)
+                        {
+                            return $"Error: {response.StatusCode}";
+                        }
 
-    private static string PrepareSoapRequest(string pid)
-    {
-        // Microsoft's PRIVATE KEY for HMAC-SHA256 encoding
-        byte[] bPrivateKey = new byte[] 
-            { 
-                0xfe, 0x31, 0x98, 0x75, 0xfb, 0x48, 0x84, 0x86, 0x9c, 0xf3, 0xf1, 0xce, 0x99, 0xa8, 0x90, 0x64, 
-                0xab, 0x57, 0x1f, 0xca, 0x47, 0x04, 0x50, 0x58, 0x30, 0x24, 0xe2, 0x14, 0x62, 0x87, 0x79, 0xa0
-            };
-
-        // XML Namespace
-        const string uri = "http://www.microsoft.com/DRM/SL/BatchActivationRequest/1.0";
-
-        // Создание нового XML документа
-        XmlDocument xmlDoc = new XmlDocument();
-
-        // Создание корневого элемента
-        XmlElement rootElement = xmlDoc.CreateElement("ActivationRequest", uri);
-        xmlDoc.AppendChild(rootElement);
-
-        // Создание элемента VersionNumber
-        XmlElement versionNumber = xmlDoc.CreateElement("VersionNumber", uri);
-        versionNumber.InnerText = "2.0";
-        rootElement.AppendChild(versionNumber);
-
-        // Создание элемента RequestType
-        XmlElement requestType = xmlDoc.CreateElement("RequestType", uri);
-        requestType.InnerText = "2";
-        rootElement.AppendChild(requestType);
-
-        // Создание элемента Requests Group
-        XmlElement requestsGroupElement = xmlDoc.CreateElement("Requests", uri);
-
-        // Создание элемента Request
-        XmlElement requestElement = xmlDoc.CreateElement("Request", uri);
-
-        // Добавление PID в элемент Request
-        XmlElement pidEntry = xmlDoc.CreateElement("PID", uri);
-        pidEntry.InnerText = pid.Replace("XXXXX", "55041");
-        requestElement.AppendChild(pidEntry);
-
-        // Добавление элемента Request в элемент Requests Group
-        requestsGroupElement.AppendChild(requestElement);
-
-        // Добавление элементов Requests и Request в XML документ
-        rootElement.AppendChild(requestsGroupElement);
-
-        // Получение массива байтов XML документа в Unicode
-        byte[] byteXml = Encoding.Unicode.GetBytes(xmlDoc.InnerXml);
-
-        // Конвертация массива байтов в Base64
-        string base64Xml = Convert.ToBase64String(byteXml);
-
-        // Вычисление Digest для Base64 XML байтов
-        string digest;
-        using (HMACSHA256 hmacsha256 = new HMACSHA256(bPrivateKey))
-        {
-            digest = Convert.ToBase64String(hmacsha256.ComputeHash(byteXml));
-        }
-
-        // Создание SOAP-обертки для веб-запроса
-        string soapEnvelope = $"<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><BatchActivate xmlns=\"http://www.microsoft.com/BatchActivationService\"><request><Digest>{digest}</Digest><RequestXml>{base64Xml}</RequestXml></request></BatchActivate></soap:Body></soap:Envelope>";
-
-        return soapEnvelope;
-    }
-
-    private static string ParseSoapResponse(string soapResponse)
-    {
-        // Парсинг SOAP ответа
-        using (XmlReader reader = XmlReader.Create(new StringReader(soapResponse)))
-        {
-            // Чтение значения ResponseXML
-            reader.ReadToFollowing("ResponseXml");
-            string responseXml = reader.ReadElementContentAsString();
-
-            // Удаление HTML Entities из ResponseXML
-            responseXml = responseXml.Replace("&gt;", ">");
-            responseXml = responseXml.Replace("&lt;", "<");
-
-            // Изменение значения кодировки в ResponseXML
-            responseXml = responseXml.Replace("utf-16", "utf-8");
-
-            // Чтение исправленного значения ResponseXML как XML
-            using (XmlReader responseReader = XmlReader.Create(new StringReader(responseXml)))
-            {
-                responseReader.ReadToFollowing("ActivationRemaining");
-                string count = responseReader.ReadElementContentAsString();
-
-                if (int.TryParse(count, out int remaining) && remaining < 0)
-                {
-                    responseReader.ReadToFollowing("ErrorCode");
-                    string error = responseReader.ReadElementContentAsString();
-
-                    if (error == "0x67")
-                    {
-                        return "0 (Blocked)";
+                        var soapResponse = await response.Content.ReadAsStringAsync();
+                        return soapResponse;
                     }
                 }
-
-                return count;
+            }
+            catch (WebException webEx)
+            {
+                return $"WebException: {webEx.Message}";
+            }
+            catch (Exception ex)
+            {
+                return $"Exception: {ex.Message}";
             }
         }
-    }
 
-    private static byte[] StringToByteArray(string hex)
-    {
-        if (hex.Length % 2 != 0)
-            throw new ArgumentException("Строка не содержит валидное шестнадцатеричное значение. Длина строки должна быть четной.");
-
-        byte[] bytes = new byte[hex.Length / 2];
-        for (int i = 0; i < hex.Length; i += 2)
+        private static string PrepareSoapRequest(string pid)
         {
-            bytes[i / 2] = Convert.ToByte(hex.Substring(i, 2), 16);
+            return $@"<?xml version=""1.0"" encoding=""utf-8""?>
+                <soap:Envelope xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""
+                               xmlns:xsd=""http://www.w3.org/2001/XMLSchema""
+                               xmlns:soap=""http://schemas.xmlsoap.org/soap/envelope/"">
+                  <soap:Body>
+                    <BatchActivate xmlns=""http://www.microsoft.com/BatchActivationService"">
+                      <request>
+                        <Version>2.0</Version>
+                        <Requests>
+                          <Request>
+                            <PID>{pid}</PID>
+                            <Type>5</Type>
+                            <IsConfirmation>false</IsConfirmation>
+                          </Request>
+                        </Requests>
+                      </request>
+                    </BatchActivate>
+                  </soap:Body>
+                </soap:Envelope>";
         }
-        return bytes;
-    }
-
-
-
-
-        
-    
     }
 }
