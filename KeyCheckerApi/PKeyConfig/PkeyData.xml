@@ -47,6 +47,16 @@
   <!-- Windows -->
   <configType configPath="windows/pkeyconfig.xrm-ms" configName="Windows" />
   <configType configPath="windows/pkeyconfig10.xrm-ms" configName="Windows 10" />
+
+  <configType configPath="windows/21H1PreBuild20201.xrm-ms" configName="21H1 PreBuild 20201" />
+  <configType configPath="windows/16299-pkeyconfig.xrm-ms" configName="16299-pkeyconfig" />
+  <configType configPath="windows/pkeyconfig_1909.xrm-ms" configName="pkeyconfig_1909" />
+  <configType configPath="windows/PreBuild_20348.xrm-ms" configName="PreBuild_20348" />
+  <configType configPath="windows/PreBuild_22449.xrm-ms" configName="PreBuild_22449" />
+  <configType configPath="windows/pkeyconfig-csvlk.xrm-ms" configName="pkeyconfig-csvlk" />
+
+
+
   <configType configPath="windows/pkeyconfig11.xrm-ms" configName="Windows 11" />
   <configType configPath="windows/pkeyconfig7.xrm-ms" configName="Windows 7" />
   <configType configPath="windows/pkeyconfig8.xrm-ms" configName="Windows 8" />
