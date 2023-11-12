@@ -93,6 +93,8 @@ namespace KeyCheckerApi.Services
                 var RetID = -1;
                 string pKeyConfig = "";
 
+                Console.WriteLine($"pkeyConfigList: {pkeyConfigList}");
+
                 foreach (var config in pkeyConfigList)
                 {
                     pKeyConfig = config;
