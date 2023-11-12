@@ -14,7 +14,7 @@ namespace KeyCheckerApi.Services
 {
     public static class PIDChecker
     {
-        Console.WriteLine("{PkeyPath}")
+
         [DllImport("pidgenx.dll", EntryPoint = "PidGenX2", CharSet = CharSet.Auto)]
         private static extern int PidGenX(
             string ProductKey,
