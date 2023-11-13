@@ -32,6 +32,7 @@ namespace KeyCheckerApi.Services
             try
             {
                 pkeyConfigList = GetPKeyConfigList();
+                Console.WriteLine($"pkeyConfigList: {pkeyConfigList}");
             }
             catch (Exception ex)
             {
