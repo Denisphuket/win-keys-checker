@@ -101,7 +101,6 @@ namespace KeyCheckerApi.Services
 
                 foreach (var config in pkeyConfigList)
                 {
-//                     Console.WriteLine($"config: {config}");
                     pKeyConfig = config;
                     RetID = PidGenX(productKey, pKeyConfig, MSPID, 0, PID, DPID, DPID4);
                     if (RetID == 0)
@@ -125,8 +124,6 @@ namespace KeyCheckerApi.Services
                         Console.WriteLine($"detail.Sub: {detail.Sub}");
                         Console.WriteLine($"detail.Lic: {detail.Lic}");
                         Console.WriteLine($"detail.Cid: {detail.Cid}");
-//                         Console.WriteLine($"pKeyConfig: {pKeyConfig}");
-//                         Console.WriteLine($"detail: {detail}");
 
 
 
