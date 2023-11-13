@@ -72,7 +72,6 @@ namespace KeyCheckerApi.Services
             try
             {
                 var detail = new KeyDetail(productKey);
-                Console.WriteLine($"detail: {detail}");
                 Type type = detail.GetType();
 
 
