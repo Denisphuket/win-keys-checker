@@ -117,8 +117,6 @@ namespace KeyCheckerApi.Services
                         detail.Sub = GetString(npid, 888);
                         detail.Lit = GetString(npid, 1016);
                         detail.Lic = GetString(npid, 1144);
-//                         detail.msft2009 = GetString(npid, 1713);
-//                         detail.msft20091 = GetString(npid, 1714);
                         detail.Cid = Convert.ToInt32(detail.Eid.Substring(6, 5)).ToString(CultureInfo.InvariantCulture);
 
                         Console.WriteLine($"detail.KeyPid: {detail.KeyPid}");
@@ -129,8 +127,6 @@ namespace KeyCheckerApi.Services
                         Console.WriteLine($"detail.Lic: {detail.Lic}");
                         Console.WriteLine($"detail.Cid: {detail.Cid}");
                         Console.WriteLine($"pKeyConfig: {pKeyConfig}");
-//                         Console.WriteLine($"detail.msft2009: {detail.msft2009}");
-//                         Console.WriteLine($"detail.msft20091: {detail.msft20091}");
                         Console.WriteLine($"detail: {detail}");
 
                         var prd = GetProductDescription(pKeyConfig, "{" + detail.Aid + "}", detail.Edi);
