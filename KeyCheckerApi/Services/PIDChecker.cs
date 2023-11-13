@@ -101,9 +101,6 @@ namespace KeyCheckerApi.Services
                 {
 //                     Console.WriteLine($"config: {config}");
                     pKeyConfig = config;
-                    Console.WriteLine($"DPID: {DPID}");
-                    Console.WriteLine($"DPID4: {DPID4}");
-                    Console.WriteLine($"MSPID: {MSPID}");
                     RetID = PidGenX(productKey, pKeyConfig, MSPID, 0, PID, DPID, DPID4);
                     if (RetID == 0)
                     {
@@ -128,6 +125,16 @@ namespace KeyCheckerApi.Services
                         Console.WriteLine($"detail.Cid: {detail.Cid}");
 //                         Console.WriteLine($"pKeyConfig: {pKeyConfig}");
 //                         Console.WriteLine($"detail: {detail}");
+
+                        Type type = detail.GetType();
+                        PropertyInfo[] properties = type.GetProperties();
+
+                        Console.WriteLine($"Displaying properties for type: {type.Name}");
+                        foreach (PropertyInfo property in properties)
+                        {
+                            object value = property.GetValue(detail, null);
+                            Console.WriteLine($"{property.Name}: {value}");
+                        }
 
                         var prd = GetProductDescription(pKeyConfig, "{" + detail.Aid + "}", detail.Edi);
 
