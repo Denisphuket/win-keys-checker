@@ -158,24 +158,7 @@ namespace KeyCheckerApi.Services
             }
         }
 
-        public static void DisplayKeyDetails(KeyDetail detail)
-        {
-            if (detail == null)
-            {
-                Console.WriteLine("Detail is null.");
-                return;
-            }
 
-            Type type = detail.GetType();
-            PropertyInfo[] properties = type.GetProperties();
-
-            Console.WriteLine($"Displaying properties for type: {type.Name}");
-            foreach (PropertyInfo property in properties)
-            {
-                object value = property.GetValue(detail, null);
-                Console.WriteLine($"{property.Name}: {value}");
-            }
-        }
 
         private static string GetString(byte[] bytes, int index)
         {
