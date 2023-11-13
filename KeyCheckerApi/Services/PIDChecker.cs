@@ -126,8 +126,8 @@ namespace KeyCheckerApi.Services
                         Console.WriteLine($"detail.Sub: {detail.Sub}");
                         Console.WriteLine($"detail.Lic: {detail.Lic}");
                         Console.WriteLine($"detail.Cid: {detail.Cid}");
-                        Console.WriteLine($"pKeyConfig: {pKeyConfig}");
-                        Console.WriteLine($"detail: {detail}");
+//                         Console.WriteLine($"pKeyConfig: {pKeyConfig}");
+//                         Console.WriteLine($"detail: {detail}");
 
                         var prd = GetProductDescription(pKeyConfig, "{" + detail.Aid + "}", detail.Edi);
 
