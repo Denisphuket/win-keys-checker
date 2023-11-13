@@ -72,8 +72,6 @@ namespace KeyCheckerApi.Services
             try
             {
                 var detail = new KeyDetail(productKey);
-                Type type = detail.GetType();
-
 
                 var gpid = new byte[0x32];
                 var opid = new byte[0xA4];
@@ -101,7 +99,11 @@ namespace KeyCheckerApi.Services
 
                 foreach (var config in pkeyConfigList)
                 {
+//                     Console.WriteLine($"config: {config}");
                     pKeyConfig = config;
+//                     Console.WriteLine($"DPID: {DPID}");
+//                     Console.WriteLine($"DPID4: {DPID4}");
+//                     Console.WriteLine($"MSPID: {MSPID}");
                     RetID = PidGenX(productKey, pKeyConfig, MSPID, 0, PID, DPID, DPID4);
                     if (RetID == 0)
                     {
@@ -124,8 +126,8 @@ namespace KeyCheckerApi.Services
                         Console.WriteLine($"detail.Sub: {detail.Sub}");
                         Console.WriteLine($"detail.Lic: {detail.Lic}");
                         Console.WriteLine($"detail.Cid: {detail.Cid}");
-
-
+//                         Console.WriteLine($"pKeyConfig: {pKeyConfig}");
+//                         Console.WriteLine($"detail: {detail}");
 
                         var prd = GetProductDescription(pKeyConfig, "{" + detail.Aid + "}", detail.Edi);
 
@@ -153,8 +155,6 @@ namespace KeyCheckerApi.Services
                 if (DPID4 != IntPtr.Zero) Marshal.FreeHGlobal(DPID4);
             }
         }
-
-
 
         private static string GetString(byte[] bytes, int index)
         {
