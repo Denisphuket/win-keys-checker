@@ -99,11 +99,8 @@ namespace KeyCheckerApi.Services
 
                 foreach (var config in pkeyConfigList)
                 {
-//                     Console.WriteLine($"config: {config}");
+                    Console.WriteLine($"config: {config}");
                     pKeyConfig = config;
-//                     Console.WriteLine($"DPID: {DPID}");
-//                     Console.WriteLine($"DPID4: {DPID4}");
-//                     Console.WriteLine($"MSPID: {MSPID}");
                     RetID = PidGenX(productKey, pKeyConfig, MSPID, 0, PID, DPID, DPID4);
                     if (RetID == 0)
                     {
@@ -119,15 +116,7 @@ namespace KeyCheckerApi.Services
                         detail.Lic = GetString(npid, 1144);
                         detail.Cid = Convert.ToInt32(detail.Eid.Substring(6, 5)).ToString(CultureInfo.InvariantCulture);
 
-                        Console.WriteLine($"detail.KeyPid: {detail.KeyPid}");
-                        Console.WriteLine($"detail.Eid: {detail.Eid}");
-                        Console.WriteLine($"detail.Aid: {detail.Aid}");
-                        Console.WriteLine($"detail.Edi: {detail.Edi}");
-                        Console.WriteLine($"detail.Sub: {detail.Sub}");
-                        Console.WriteLine($"detail.Lic: {detail.Lic}");
-                        Console.WriteLine($"detail.Cid: {detail.Cid}");
-//                         Console.WriteLine($"pKeyConfig: {pKeyConfig}");
-//                         Console.WriteLine($"detail: {detail}");
+
 
                         var prd = GetProductDescription(pKeyConfig, "{" + detail.Aid + "}", detail.Edi);
 
