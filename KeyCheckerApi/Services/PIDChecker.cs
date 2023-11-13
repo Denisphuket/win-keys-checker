@@ -101,9 +101,9 @@ namespace KeyCheckerApi.Services
                 {
 //                     Console.WriteLine($"config: {config}");
                     pKeyConfig = config;
-                    Console.WriteLine($"DPID: {DPID}");
-                    Console.WriteLine($"DPID4: {DPID4}");
-                    Console.WriteLine($"MSPID: {MSPID}");
+//                     Console.WriteLine($"DPID: {DPID}");
+//                     Console.WriteLine($"DPID4: {DPID4}");
+//                     Console.WriteLine($"MSPID: {MSPID}");
                     RetID = PidGenX(productKey, pKeyConfig, MSPID, 0, PID, DPID, DPID4);
                     if (RetID == 0)
                     {
