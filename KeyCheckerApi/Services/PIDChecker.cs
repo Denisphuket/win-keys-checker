@@ -95,7 +95,7 @@ namespace KeyCheckerApi.Services
                 var RetID = -1;
                 string pKeyConfig = "";
 
-                Console.WriteLine($"pkeyConfigList: {pkeyConfigList}");
+
 
                 foreach (var config in pkeyConfigList)
                 {
@@ -115,6 +115,16 @@ namespace KeyCheckerApi.Services
                         detail.Lit = GetString(npid, 1016);
                         detail.Lic = GetString(npid, 1144);
                         detail.Cid = Convert.ToInt32(detail.Eid.Substring(6, 5)).ToString(CultureInfo.InvariantCulture);
+
+                        Console.WriteLine($"detail.KeyPid: {detail.KeyPid}");
+                        Console.WriteLine($"detail.Eid: {detail.Eid}");
+                        Console.WriteLine($"detail.Aid: {detail.Aid}");
+                        Console.WriteLine($"detail.Edi: {detail.Edi}");
+                        Console.WriteLine($"detail.Sub: {detail.Sub}");
+                        Console.WriteLine($"detail.Lic: {detail.Lic}");
+                        Console.WriteLine($"detail.Cid: {detail.Cid}");
+                        Console.WriteLine($"pKeyConfig: {pKeyConfig}");
+
                         var prd = GetProductDescription(pKeyConfig, "{" + detail.Aid + "}", detail.Edi);
 
                         if (prd.StartsWith("RTM_"))
