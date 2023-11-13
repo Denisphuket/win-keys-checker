@@ -72,6 +72,9 @@ namespace KeyCheckerApi.Services
             try
             {
                 var detail = new KeyDetail(productKey);
+                Console.WriteLine($"detail: {detail}");
+                Type type = detail.GetType();
+
 
                 var gpid = new byte[0x32];
                 var opid = new byte[0xA4];
@@ -126,15 +129,7 @@ namespace KeyCheckerApi.Services
 //                         Console.WriteLine($"pKeyConfig: {pKeyConfig}");
 //                         Console.WriteLine($"detail: {detail}");
 
-                        Type type = detail.GetType();
-                        PropertyInfo[] properties = type.GetProperties();
 
-                        Console.WriteLine($"Displaying properties for type: {type.Name}");
-                        foreach (PropertyInfo property in properties)
-                        {
-                            object value = property.GetValue(detail, null);
-                            Console.WriteLine($"{property.Name}: {value}");
-                        }
 
                         var prd = GetProductDescription(pKeyConfig, "{" + detail.Aid + "}", detail.Edi);
 
@@ -160,6 +155,25 @@ namespace KeyCheckerApi.Services
                 if (PID != IntPtr.Zero) Marshal.FreeHGlobal(PID);
                 if (DPID != IntPtr.Zero) Marshal.FreeHGlobal(DPID);
                 if (DPID4 != IntPtr.Zero) Marshal.FreeHGlobal(DPID4);
+            }
+        }
+
+        public static void DisplayKeyDetails(KeyDetail detail)
+        {
+            if (detail == null)
+            {
+                Console.WriteLine("Detail is null.");
+                return;
+            }
+
+            Type type = detail.GetType();
+            PropertyInfo[] properties = type.GetProperties();
+
+            Console.WriteLine($"Displaying properties for type: {type.Name}");
+            foreach (PropertyInfo property in properties)
+            {
+                object value = property.GetValue(detail, null);
+                Console.WriteLine($"{property.Name}: {value}");
             }
         }
 
