@@ -31,3 +31,214 @@
 /Users/andreevdenis/development/NET/key/KeyCheckerApi/obj/Debug/net7.0/KeyCheckerApi.pdb
 /Users/andreevdenis/development/NET/key/KeyCheckerApi/obj/Debug/net7.0/KeyCheckerApi.genruntimeconfig.cache
 /Users/andreevdenis/development/NET/key/KeyCheckerApi/obj/Debug/net7.0/ref/KeyCheckerApi.dll
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\appsettings.json
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\KeyCheckerApi.exe
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\KeyCheckerApi.deps.json
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\KeyCheckerApi.runtimeconfig.json
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\KeyCheckerApi.dll
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\KeyCheckerApi.pdb
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\KeyCheckerApi.csproj.AssemblyReference.cache
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\KeyCheckerApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\KeyCheckerApi.AssemblyInfoInputs.cache
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\KeyCheckerApi.AssemblyInfo.cs
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\KeyCheckerApi.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\KeyCheckerApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\KeyCheckerApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\staticwebassets\msbuild.KeyCheckerApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\staticwebassets\msbuild.build.KeyCheckerApi.props
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.KeyCheckerApi.props
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.KeyCheckerApi.props
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\scopedcss\bundle\KeyCheckerApi.styles.css
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\KeyCheckerApi.csproj.CopyComplete
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\KeyCheckerApi.dll
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\refint\KeyCheckerApi.dll
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\KeyCheckerApi.pdb
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\KeyCheckerApi.genruntimeconfig.cache
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\obj\Debug\net7.0\ref\KeyCheckerApi.dll
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Office All\pkconfig_office14.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Office All\pkconfig_Office15.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Office All\pkconfig_Office15KMSHost.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Office All\pkeyconfig-office16Client.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Office All\pkeyconfig-Office16KMSHost.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Office All\pkeyconfig-office_19.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\office2010\pkconfig_office14.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\office2010\pkeyconfig-office-kmshost.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\office2013\pkconfig_office15.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\office2013\pkconfig_Office15Client.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\office2013\pkconfig_Office15KMSHost.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\office2013\pkeyconfig-office-kmshost.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\office2016\officeonline2016.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\office2016\pkeyconfig-office-kmshost.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\office2016\pkeyconfig-office16Client.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\office2016\pkeyconfig-Office16KMSHost.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\office2019\3_pkeyconfig_office16_Client.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\office2019\pkeyconfig-office19.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\office2019\pkeyconfig_office16_kmshost.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\office2019\pkeyconfig_office16_Server.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\office2019\z_pkeyconfig-office16_KMSHost.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\office2021\pkeyconfig-office-2021.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Old Windows\pkconfig_vista.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Old Windows\pkconfig_win7.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Old Windows\pkconfig_win7_sp1.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Old Windows\pkconfig_winPosReady7.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Old Windows\pkconfig_winThinPC.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\other\pkeyconfig-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\other\pkeyconfig-downlevel.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\other\pkeyconfig-office21.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\other\pkeyconfig.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\PkeyData.xml
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\sql\pkconfig_sql2012.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\sql\pkconfig_sql2014.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\sql\pkconfig_sql2016.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\sql\pkconfig_sql2017.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\sql\pkconfig_sql2019.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\sql\pkeyconfig-sql2012.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\sql\pkeyconfig-sql2014.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\vs\pkconfig_vs2010.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\vs\pkconfig_vs2012.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\vs\pkconfig_vs2013.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\vs\pkconfig_vs2015.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\vs\pkconfig_vs2015rc.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\vs\pkconfig_vs2017.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\vs\pkconfig_vs2019.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\vs\pkconfig_vs2022.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\vs\vs2010.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\vs\vs2012.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\vs\vs2013.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\vs\vs2015.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\vs\vs2015rc.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\vs\vs2017.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Windows 10\16299-pkeyconfig.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Windows 10\21H1PreBuild20201.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Windows 10\pkeyconfig-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Windows 10\pkeyconfig.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Windows 10\pkeyconfig_1909.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Windows 10\PreBuild_20348.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Windows 10\PreBuild_22449.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\0_pkeyconfig_win10_18362.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkconfig_winNext-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkconfig_winNext.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-csvlk_10135.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-csvlk_14352.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-csvlk_14361.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-csvlk_14383.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-csvlk_14385.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-csvlk_17763.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-csvlk_LTSC.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-csvlk_ltsc_2021.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-csvlk_pkeyconfig_workstation.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-downlevel.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-downlevel_10173.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-downlevel_10586.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-downlevel_14352.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-downlevel_14361.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-downlevel_17763.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-downlevel_LTSC.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-downlevel_ltsc_2021.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig-downlevel_pkeyconfig_workstation.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_10135.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_14352.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_14361.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_14383.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_14385.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_17763.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_LTSC.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_ltsc_2021.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10036.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10036_csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10041-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10041.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10049-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10049.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10051-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10051.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10061-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10061.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10074-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10074.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10122-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10122.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10130-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10130.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10135-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10135.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10147-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10147.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10151-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10151.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10158-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10158.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10159-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10159.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10162-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10162.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10166-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10166.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10176-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10176.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10240-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10240.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10586-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_10586.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_17134-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_17134.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_9841-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_9841.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_9860-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_9860.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_9879.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_9879_csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_9926.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_win10_9926_csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\pkeyconfig_workstation.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\win10_15063.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows10-server2016-2019\win10_15063_CSLVK.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows11-server2021\pkeyconfig-csvlk_win11.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows11-server2021\pkeyconfig-downlevel_win11.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows11-server2021\pkeyconfig_win11.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows11-server2021\server2021\pkeyconfig-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows11-server2021\server2021\pkeyconfig-downlevel.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows11-server2021\server2021\pkeyconfig.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows7-server2008r2-thinpc-embsta-winPosReady7\pkconfig_win7.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows7-server2008r2-thinpc-embsta-winPosReady7\pkconfig_win7x.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows7-server2008r2-thinpc-embsta-winPosReady7\pkconfig_winPosReady7.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows7-server2008r2-thinpc-embsta-winPosReady7\pkconfig_winThinPC.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows7-server2008r2-thinpc-embsta-winPosReady7\pkeyconfig_emb-sta.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Windows8 8.1 emb\pkconfig_win8.1-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Windows8 8.1 emb\pkconfig_win8.1.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\Windows8 8.1 emb\pkconfig_winemb8.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8-server2012-winemb8\pkconfig_winemb8.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8-server2012-winemb8\pkeyconfig-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8-server2012-winemb8\pkeyconfig.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8-server2012-winemb8\pkeyconfig8_csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8-server2012-winemb8\pkeyconfig_80.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8-server2012-winemb8\pkeyconfig_win8CP-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8-server2012-winemb8\pkeyconfig_win8CP.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8-server2012-winemb8\pkeyconfig_win8DP.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8-server2012-winemb8\pkeyconfig_win8DP_csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8-server2012-winemb8\pkeyconfig_Windows_Embedded_8_Standard.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8-server2012-winemb8\pkeyconfig_Windows_Embedded_8_Standard_Toolkit.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8.1-server2012r2\pkconfig_win8_1.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8.1-server2012r2\pkconfig_win8_1_csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8.1-server2012r2\pkeyconfig-csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8.1-server2012r2\pkeyconfig.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8.1-server2012r2\pkeyconfig8_1.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8.1-server2012r2\pkeyconfig_win8_1_9431.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windows8.1-server2012r2\pkeyconfig_win8_1_9431_csvlk.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windowsvista-server2008\pkconfig_vista.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windowsvista-server2008\pkconfig_vista_6.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windowsvista-server2008\pkeyconfig_6.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\windowsvista-server2008\pkeyconfig_6001.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\WinSvr\pkeyconfig_2016.xrm-ms
+C:\Users\Admin\Source\Repos\win-keys-checker\KeyCheckerApi\bin\Debug\net7.0\PKeyConfig\WinSvr\pkeyconfig_2019.xrm-ms

@@ -1,0 +1,211 @@
+<xmldoc>
+  <!-- Office All -->
+  <configType configPath="Office All/pkconfig_Office15KMSHost.xrm-ms" configName="Office 15 KMS Host" />
+  <configType configPath="Office All/pkconfig_office14.xrm-ms" configName="Office 14" />
+  <configType configPath="Office All/pkeyconfig-Office16KMSHost.xrm-ms" configName="Office 16 KMS Host" />
+  <configType configPath="Office All/pkeyconfig-office16Client.xrm-ms" configName="Office 16 Client" />
+  <configType configPath="Office All/pkeyconfig-office_19.xrm-ms" configName="Office 19" />
+
+  <!-- Old Windows -->
+  <configType configPath="Old Windows/pkconfig_vista.xrm-ms" configName="Windows Vista" />
+  <configType configPath="Old Windows/pkconfig_win7.xrm-ms" configName="Windows 7" />
+  <configType configPath="Old Windows/pkconfig_win7_sp1.xrm-ms" configName="Windows 7 SP1" />
+  <configType configPath="Old Windows/pkconfig_winPosReady7.xrm-ms" configName="Windows PosReady 7" />
+  <configType configPath="Old Windows/pkconfig_winThinPC.xrm-ms" configName="Windows Thin PC" />
+
+  <!-- Other -->
+  <configType configPath="PkeyData.xml" configName="Pkey Data" />
+
+  <!-- WinSvr -->
+  <configType configPath="WinSvr/pkeyconfig_2016.xrm-ms" configName="Windows Server 2016" />
+  <configType configPath="WinSvr/pkeyconfig_2019.xrm-ms" configName="Windows Server 2019" />
+
+  <!-- Windows 10 -->
+  <configType configPath="Windows 10/pkeyconfig-csvlk.xrm-ms" configName="Windows 10 CSVLK" />
+  <configType configPath="Windows 10/pkeyconfig.xrm-ms" configName="Windows 10" />
+
+  <!-- Windows8 8.1 emb -->
+  <configType configPath="Windows8 8.1 emb/pkconfig_win8.1-csvlk.xrm-ms" configName="Windows 8.1 CSVLK" />
+  <configType configPath="Windows8 8.1 emb/pkconfig_win8.1.xrm-ms" configName="Windows 8.1" />
+  <configType configPath="Windows8 8.1 emb/pkconfig_winemb8.xrm-ms" configName="Windows Embedded 8" />
+
+  <!-- office2010 -->
+  <configType configPath="office2010/pkconfig_office14.xrm-ms" configName="Office 2010" />
+  <configType configPath="office2010/pkeyconfig-office-kmshost.xrm-ms" configName="Office 2010 KMS Host" />
+
+  <!-- office2013 -->
+  <configType configPath="office2013/pkconfig_Office15Client.xrm-ms" configName="Office 2013 Client" />
+  <configType configPath="office2013/pkconfig_Office15KMSHost.xrm-ms" configName="Office 2013 KMS Host" />
+  <configType configPath="office2013/pkconfig_office15.xrm-ms" configName="Office 2013" />
+  <configType configPath="office2013/pkeyconfig-office-kmshost.xrm-ms" configName="Office 2013 KMS Host" />
+
+  <!-- office2016 -->
+  <configType configPath="office2016/officeonline2016.xrm-ms" configName="Office Online 2016" />
+  <configType configPath="office2016/pkeyconfig-Office16KMSHost.xrm-ms" configName="Office 16 KMS Host" />
+  <configType configPath="office2016/pkeyconfig-office-kmshost.xrm-ms" configName="Office 2016 KMS Host" />
+  <configType configPath="office2016/pkeyconfig-office16Client.xrm-ms" configName="Office 16 Client" />
+
+  <!-- office2019 -->
+  <configType configPath="office2019/3_pkeyconfig_office16_Client.xrm-ms" configName="Office 2019 Client" />
+  <configType configPath="office2019/pkeyconfig-office19.xrm-ms" configName="Office 2019" />
+  <configType configPath="office2019/pkeyconfig_office16_Server.xrm-ms" configName="Office 2019 Server" />
+  <configType configPath="office2019/pkeyconfig_office16_kmshost.xrm-ms" configName="Office 2019 KMS Host" />
+  <configType configPath="office2019/z_pkeyconfig-office16_KMSHost.xrm-ms" configName="Office 2019 KMS Host (Z)" />
+
+  <!-- office2021 -->
+  <configType configPath="office2021/pkeyconfig-office-2021.xrm-ms" configName="Office 2021" />
+
+  <!-- other -->
+  <configType configPath="other/pkeyconfig-csvlk.xrm-ms" configName="Other CSVLK" />
+  <configType configPath="other/pkeyconfig-downlevel.xrm-ms" configName="Other Downlevel" />
+  <configType configPath="other/pkeyconfig-office21.xrm-ms" configName="Other Office 21" />
+  <configType configPath="other/pkeyconfig.xrm-ms" configName="Other" />
+
+  <!-- sql -->
+  <configType configPath="sql/pkconfig_sql2012.xrm-ms" configName="SQL 2012" />
+  <configType configPath="sql/pkconfig_sql2014.xrm-ms" configName="SQL 2014" />
+  <configType configPath="sql/pkconfig_sql2016.xrm-ms" configName="SQL 2016" />
+  <configType configPath="sql/pkconfig_sql2017.xrm-ms" configName="SQL 2017" />
+  <configType configPath="sql/pkconfig_sql2019.xrm-ms" configName="SQL 2019" />
+  <configType configPath="sql/pkeyconfig-sql2012.xrm-ms" configName="SQL 2012" />
+  <configType configPath="sql/pkeyconfig-sql2014.xrm-ms" configName="SQL 2014" />
+
+  <!-- vs -->
+  <configType configPath="vs/pkconfig_vs2010.xrm-ms" configName="Visual Studio 2010" />
+  <configType configPath="vs/pkconfig_vs2012.xrm-ms" configName="Visual Studio 2012" />
+  <configType configPath="vs/pkconfig_vs2013.xrm-ms" configName="Visual Studio 2013" />
+  <configType configPath="vs/pkconfig_vs2015.xrm-ms" configName="Visual Studio 2015" />
+  <configType configPath="vs/pkconfig_vs2015rc.xrm-ms" configName="Visual Studio 2015 RC" />
+  <configType configPath="vs/pkconfig_vs2017.xrm-ms" configName="Visual Studio 2017" />
+  <configType configPath="vs/pkconfig_vs2019.xrm-ms" configName="Visual Studio 2019" />
+  <configType configPath="vs/pkconfig_vs2022.xrm-ms" configName="Visual Studio 2022" />
+  <configType configPath="vs/vs2010.xrm-ms" configName="Visual Studio 2010" />
+  <configType configPath="vs/vs2012.xrm-ms" configName="Visual Studio 2012" />
+  <configType configPath="vs/vs2013.xrm-ms" configName="Visual Studio 2013" />
+  <configType configPath="vs/vs2015.xrm-ms" configName="Visual Studio 2015" />
+  <configType configPath="vs/vs2015rc.xrm-ms" configName="Visual Studio 2015 RC" />
+  <configType configPath="vs/vs2017.xrm-ms" configName="Visual Studio 2017" />
+
+  <!-- windows10-server2016-2019 -->
+  <configType configPath="windows10-server2016-2019/0_pkeyconfig_win10_18362.xrm-ms" configName="Windows 10 (18362)" />
+  <configType configPath="windows10-server2016-2019/pkconfig_winNext-csvlk.xrm-ms" configName="Windows 10 Next CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkconfig_winNext.xrm-ms" configName="Windows 10 Next" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-csvlk.xrm-ms" configName="Windows 10 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-csvlk_10135.xrm-ms" configName="Windows 10 CSVLK (10135)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-csvlk_14352.xrm-ms" configName="Windows 10 CSVLK (14352)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-csvlk_14361.xrm-ms" configName="Windows 10 CSVLK (14361)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-csvlk_14383.xrm-ms" configName="Windows 10 CSVLK (14383)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-csvlk_14385.xrm-ms" configName="Windows 10 CSVLK (14385)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-csvlk_17763.xrm-ms" configName="Windows 10 CSVLK (17763)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-csvlk_LTSC.xrm-ms" configName="Windows 10 CSVLK LTSC" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-csvlk_ltsc_2021.xrm-ms" configName="Windows 10 CSVLK LTSC (2021)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-csvlk_pkeyconfig_workstation.xrm-ms" configName="Windows 10 CSVLK Workstation" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-downlevel.xrm-ms" configName="Windows 10 Downlevel" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-downlevel_10173.xrm-ms" configName="Windows 10 Downlevel (10173)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-downlevel_10586.xrm-ms" configName="Windows 10 Downlevel (10586)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-downlevel_14352.xrm-ms" configName="Windows 10 Downlevel (14352)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-downlevel_14361.xrm-ms" configName="Windows 10 Downlevel (14361)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-downlevel_17763.xrm-ms" configName="Windows 10 Downlevel (17763)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-downlevel_LTSC.xrm-ms" configName="Windows 10 Downlevel LTSC" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-downlevel_ltsc_2021.xrm-ms" configName="Windows 10 Downlevel LTSC (2021)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig-downlevel_pkeyconfig_workstation.xrm-ms" configName="Windows 10 Downlevel Workstation" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig.xrm-ms" configName="Windows 10" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_10135.xrm-ms" configName="Windows 10 (10135)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_14352.xrm-ms" configName="Windows 10 (14352)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_14361.xrm-ms" configName="Windows 10 (14361)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_14383.xrm-ms" configName="Windows 10 (14383)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_14385.xrm-ms" configName="Windows 10 (14385)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_17763.xrm-ms" configName="Windows 10 (17763)" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_LTSC.xrm-ms" configName="Windows 10 LTSC" />
+  <!-- windows10-server2016-2019 -->
+  <configType configPath="windows10-server2016-2019/pkeyconfig_ltsc_2021.xrm-ms" configName="Windows 10 LTSC 2021" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10036.xrm-ms" configName="Windows 10 10036" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10036_csvlk.xrm-ms" configName="Windows 10 10036 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10041-csvlk.xrm-ms" configName="Windows 10 10041 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10041.xrm-ms" configName="Windows 10 10041" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10049-csvlk.xrm-ms" configName="Windows 10 10049 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10049.xrm-ms" configName="Windows 10 10049" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10051-csvlk.xrm-ms" configName="Windows 10 10051 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10051.xrm-ms" configName="Windows 10 10051" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10061-csvlk.xrm-ms" configName="Windows 10 10061 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10061.xrm-ms" configName="Windows 10 10061" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10074-csvlk.xrm-ms" configName="Windows 10 10074 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10074.xrm-ms" configName="Windows 10 10074" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10122-csvlk.xrm-ms" configName="Windows 10 10122 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10122.xrm-ms" configName="Windows 10 10122" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10130-csvlk.xrm-ms" configName="Windows 10 10130 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10130.xrm-ms" configName="Windows 10 10130" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10135-csvlk.xrm-ms" configName="Windows 10 10135 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10135.xrm-ms" configName="Windows 10 10135" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10147-csvlk.xrm-ms" configName="Windows 10 10147 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10147.xrm-ms" configName="Windows 10 10147" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10151-csvlk.xrm-ms" configName="Windows 10 10151 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10151.xrm-ms" configName="Windows 10 10151" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10158-csvlk.xrm-ms" configName="Windows 10 10158 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10158.xrm-ms" configName="Windows 10 10158" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10159-csvlk.xrm-ms" configName="Windows 10 10159 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10159.xrm-ms" configName="Windows 10 10159" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10162-csvlk.xrm-ms" configName="Windows 10 10162 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10162.xrm-ms" configName="Windows 10 10162" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10166-csvlk.xrm-ms" configName="Windows 10 10166 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10166.xrm-ms" configName="Windows 10 10166" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10176-csvlk.xrm-ms" configName="Windows 10 10176 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10176.xrm-ms" configName="Windows 10 10176" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10240-csvlk.xrm-ms" configName="Windows 10 10240 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10240.xrm-ms" configName="Windows 10 10240" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10586-csvlk.xrm-ms" configName="Windows 10 10586 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_10586.xrm-ms" configName="Windows 10 10586" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_17134-csvlk.xrm-ms" configName="Windows 10 17134 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_17134.xrm-ms" configName="Windows 10 17134" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_9841-csvlk.xrm-ms" configName="Windows 10 9841 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_9841.xrm-ms" configName="Windows 10 9841" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_9860-csvlk.xrm-ms" configName="Windows 10 9860 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_9860.xrm-ms" configName="Windows 10 9860" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_9879.xrm-ms" configName="Windows 10 9879" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_9879_csvlk.xrm-ms" configName="Windows 10 9879 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_9926.xrm-ms" configName="Windows 10 9926" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_win10_9926_csvlk.xrm-ms" configName="Windows 10 9926 CSVLK" />
+  <configType configPath="windows10-server2016-2019/pkeyconfig_workstation.xrm-ms" configName="Windows 10 Workstation" />
+  <configType configPath="win10_15063.xrm-ms" configName="Windows 10 15063" />
+  <configType configPath="win10_15063_CSLVK.xrm-ms" configName="Windows 10 15063 CSVLK" />
+  <configType configPath="windows11-server2021/pkeyconfig-csvlk_win11.xrm-ms" configName="Windows 11 CSVLK" />
+  <configType configPath="windows11-server2021/pkeyconfig-downlevel_win11.xrm-ms" configName="Windows 11 Downlevel" />
+  <configType configPath="windows11-server2021/pkeyconfig_win11.xrm-ms" configName="Windows 11" />
+  <configType configPath="server2021/pkeyconfig-csvlk.xrm-ms" configName="Server 2021 CSVLK" />
+  <configType configPath="server2021/pkeyconfig-downlevel.xrm-ms" configName="Server 2021 Downlevel" />
+  <configType configPath="server2021/pkeyconfig.xrm-ms" configName="Server 2021" />
+  <!-- windows7-server2008r2-thinpc-embsta-winPosReady7 -->
+  <configType configPath="windows7-server2008r2-thinpc-embsta-winPosReady7/pkconfig_win7.xrm-ms" configName="Windows 7" />
+  <configType configPath="windows7-server2008r2-thinpc-embsta-winPosReady7/pkconfig_win7x.xrm-ms" configName="Windows 7 X" />
+  <configType configPath="windows7-server2008r2-thinpc-embsta-winPosReady7/pkconfig_winPosReady7.xrm-ms" configName="Windows PosReady 7" />
+  <configType configPath="windows7-server2008r2-thinpc-embsta-winPosReady7/pkconfig_winThinPC.xrm-ms" configName="Windows ThinPC" />
+  <configType configPath="windows7-server2008r2-thinpc-embsta-winPosReady7/pkeyconfig_emb-sta.xrm-ms" configName="Embedded Standalone" />
+
+  <!-- windows8-server2012-winemb8 -->
+  <configType configPath="windows8-server2012-winemb8/pkconfig_winemb8.xrm-ms" configName="Windows 8" />
+  <configType configPath="windows8-server2012-winemb8/pkeyconfig-csvlk.xrm-ms" configName="Windows 8 CSVLK" />
+  <configType configPath="windows8-server2012-winemb8/pkeyconfig.xrm-ms" configName="Windows 8 X" />
+  <configType configPath="windows8-server2012-winemb8/pkeyconfig8_csvlk.xrm-ms" configName="Windows 8 8 CSVLK" />
+  <configType configPath="windows8-server2012-winemb8/pkeyconfig_80.xrm-ms" configName="Windows 8 80" />
+  <configType configPath="windows8-server2012-winemb8/pkeyconfig_Windows_Embedded_8_Standard.xrm-ms" configName="Windows Embedded 8 Standard" />
+  <configType configPath="windows8-server2012-winemb8/pkeyconfig_Windows_Embedded_8_Standard_Toolkit.xrm-ms" configName="Windows Embedded 8 Standard Toolkit" />
+  <configType configPath="windows8-server2012-winemb8/pkeyconfig_win8CP-csvlk.xrm-ms" configName="Windows 8 CP CSVLK" />
+  <configType configPath="windows8-server2012-winemb8/pkeyconfig_win8CP.xrm-ms" configName="Windows 8 CP" />
+  <configType configPath="windows8-server2012-winemb8/pkeyconfig_win8DP.xrm-ms" configName="Windows 8 DP" />
+  <configType configPath="windows8-server2012-winemb8/pkeyconfig_win8DP_csvlk.xrm-ms" configName="Windows 8 DP CSVLK" />
+
+  <!-- windows8.1-server2012r2 -->
+  <configType configPath="windows8.1-server2012r2/pkconfig_win8_1.xrm-ms" configName="Windows 8.1" />
+  <configType configPath="windows8.1-server2012r2/pkconfig_win8_1_csvlk.xrm-ms" configName="Windows 8.1 CSVLK" />
+  <configType configPath="windows8.1-server2012r2/pkeyconfig-csvlk.xrm-ms" configName="CSVLK" />
+  <configType configPath="windows8.1-server2012r2/pkeyconfig.xrm-ms" configName="X" />
+  <configType configPath="windows8.1-server2012r2/pkeyconfig8_1.xrm-ms" configName="8.1" />
+  <configType configPath="windows8.1-server2012r2/pkeyconfig_win8_1_9431.xrm-ms" configName="Windows 8.1 9431" />
+  <configType configPath="windows8.1-server2012r2/pkeyconfig_win8_1_9431_csvlk.xrm-ms" configName="Windows 8.1 9431 CSVLK" />
+
+  <!-- windowsvista-server2008 -->
+  <configType configPath="windowsvista-server2008/pkconfig_vista.xrm-ms" configName="Windows Vista" />
+  <configType configPath="windowsvista-server2008/pkconfig_vista_6.xrm-ms" configName="Windows Vista 6" />
+  <configType configPath="windowsvista-server2008/pkeyconfig_6.xrm-ms" configName="6" />
+  <configType configPath="windowsvista-server2008/pkeyconfig_6001.xrm-ms" configName="6001" />
+</xmldoc>

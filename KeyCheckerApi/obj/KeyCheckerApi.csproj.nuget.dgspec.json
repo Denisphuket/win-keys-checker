@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andreevdenis/development/NET/key/KeyCheckerApi/KeyCheckerApi.csproj": {}
+    "C:\\Users\\Admin\\Source\\Repos\\win-keys-checker\\KeyCheckerApi\\KeyCheckerApi.csproj": {}
   },
   "projects": {
-    "/Users/andreevdenis/development/NET/key/KeyCheckerApi/KeyCheckerApi.csproj": {
+    "C:\\Users\\Admin\\Source\\Repos\\win-keys-checker\\KeyCheckerApi\\KeyCheckerApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andreevdenis/development/NET/key/KeyCheckerApi/KeyCheckerApi.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\win-keys-checker\\KeyCheckerApi\\KeyCheckerApi.csproj",
         "projectName": "KeyCheckerApi",
-        "projectPath": "/Users/andreevdenis/development/NET/key/KeyCheckerApi/KeyCheckerApi.csproj",
-        "packagesPath": "/Users/andreevdenis/.nuget/packages/",
-        "outputPath": "/Users/andreevdenis/development/NET/key/KeyCheckerApi/obj/",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\win-keys-checker\\KeyCheckerApi\\KeyCheckerApi.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\win-keys-checker\\KeyCheckerApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/andreevdenis/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
